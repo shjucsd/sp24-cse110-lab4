@@ -10,13 +10,13 @@
 10. At line 12, the program will output 3 to the console because it was decared using const and evaluates to 3 which the length of the input array. Since it was declared inside the function, it is still accessible and gets printed to the console. 
 11. The function will return the array with the price which was discounted i.e., [ 50, 100, 150 ] because even though the array is declared using const, const allows array to be modified but not reassigned, so just pushing into the array does not cause error. Similarly, for discountedPrice, since we are redeclaring it in every iteration hence it does not count as reassignment and does not cause error. Hence, all the discount values get correctly pushed into the array which is returned. 
 12. A. student.name B. student['Grad Year'] C. student.greeting() D. student['Favorite Teacher'].name E. student.courseLoad[0]
-13. A. '32' since integers map to their exact spring representation
-B. 1 since string is converted to number
-C. 3 since null becomes 0 
-D. '3null' since null is a string 'null' now
-E. 4 since true maps to 1
-F. 0 since both null and false map to 0
-G. '3undefined' since undefined becomes a string
+13. A. '32' since integers map to their exact spring representation\
+B. 1 since string is converted to number\
+C. 3 since null becomes 0 \
+D. '3null' since null is a string 'null' now\
+E. 4 since true maps to 1\
+F. 0 since both null and false map to 0\
+G. '3undefined' since undefined becomes a string\
 H.  NaN since undefined maps to NaN so it does not proceed with the subtraction
 14. A. true since string '2' becomes a number 2
 B. false since it compares two strings lexicographically letter-by-letter and here the ASCII value of '2' is greater than '1' so it evaluates to false
