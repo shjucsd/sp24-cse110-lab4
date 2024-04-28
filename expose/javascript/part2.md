@@ -31,5 +31,5 @@ F. true since Boolean(2) maps to true as it is a non-zero number
 19. 1\
     4\
     3\
-    2\
+    2
     
