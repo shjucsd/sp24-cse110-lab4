@@ -18,18 +18,18 @@ E. 4 since true maps to 1\
 F. 0 since both null and false map to 0\
 G. '3undefined' since undefined becomes a string\
 H.  NaN since undefined maps to NaN so it does not proceed with the subtraction
-14. A. true since string '2' becomes a number 2
-B. false since it compares two strings lexicographically letter-by-letter and here the ASCII value of '2' is greater than '1' so it evaluates to false
-C. true since with regular equality check string '2' becomes a number 2
-D. false since struct equality immediately returns false if the operands are of different types
-E. false since true maps to 1 
+14. A. true since string '2' becomes a number 2\
+B. false since it compares two strings lexicographically letter-by-letter and here the ASCII value of '2' is greater than '1' so it evaluates to false\
+C. true since with regular equality check string '2' becomes a number 2\
+D. false since struct equality immediately returns false if the operands are of different types\
+E. false since true maps to 1 \
 F. true since Boolean(2) maps to true as it is a non-zero number
 15. == is the regular equality operator which converts operands of different types to numbers for comparison and returns boolean based on the equality of the converted operands whereas === is the strict equality operator which checks for equality without type conversion and returns false if operands are of different types without any attempt to convert. 
 16. (in part2-question16.js)
 17. The result will be [2,4,6]. When we call the function modifyArray, it has two parameters - the array and callback which is doSomething function. While iterating over the array we call the callback (doSomething) function which in this case doubles the number it is provided with, so now we can use the doubled value to push into the new array. This happens with each element of the input array and hence the returned array contains the doubled value of each element in the input array. 
 18. (in part2-question18.js)
-19. 1
-    4
-    3
-    2
+19. 1\
+    4\
+    3\
+    2\
     
